@@ -1,0 +1,126 @@
+main{
+    font-family: "Roboto Slab";
+    height: 910px;
+    width: 100%;
+}
+main h1{
+    font-size: 2.7em;
+    transition: .5s;
+}
+.description-container{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+    font-weight: 500;
+}
+main  h1:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px black,
+                 1px 1px 1px black,
+                 1px 1px 1px black,
+                 1px 1px 1px black;
+    cursor: pointer;
+}
+.welcome:hover {
+    font-size: 3em;
+}
+.description-container > p{
+    cursor: pointer;
+}
+.shop-container{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8);  
+}
+.store{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: arial;
+    cursor: pointer;
+}
+.store-section {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+.store-section > div {
+    width: 50%;
+    height: 650px;
+    transition: .7s;
+    position: relative;
+    box-shadow: 0px 1px 5px rgba(0,0,0,1);
+    border-radius: 20px;
+}
+.men-bg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.store-section > div:hover{
+    transform: scale(110%);
+}
+.store-div-container {
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    margin: 0;
+    color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black,
+                1px 1px 1px black,
+                1px 1px 1px black,
+                1px 1px 1px black;
+}
+.shop-now{
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    color: white;
+    font-size: 1.1em;
+    font-family: "Hammersmith One";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: .25s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.shopping-cart-1{
+    height: 22px;
+    width: 22px;
+}
+.shopping-cart-2{
+    display: none;
+    height: 22px;
+    width: 22px;
+}
+.shop-now:hover {
+    color: black;
+    background-color: white;
+    border: none;
+}
+.shop-now:hover .shopping-cart-1{
+    display: none;
+}
+.shop-now:hover .shopping-cart-2{
+    display: inline-block;
+}

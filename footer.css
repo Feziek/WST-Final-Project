@@ -1,0 +1,128 @@
+footer {
+    background-color: transparent;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: "Hammersmith one";
+}
+.first-section {
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8);
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 25px;
+}
+.about-us{
+    cursor: pointer;
+}
+.line-division {
+    width: 100%;
+    height: 3px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8);
+}
+.second-section{
+    padding-left: 20px;
+}
+.social-main-container {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    width: 200px;  
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8); 
+    transition: .25s;
+}
+.social-box{
+    height: 100%;
+    width: 100%;
+}
+.social-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pfp-pic {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.name-sec{
+    font-size: 1.1em;
+}
+.social-pic-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.social-pic {
+    height: 25px;
+    width: 25px;
+}
+.social-container:hover {
+    transform: scale(110%);
+    background-color: black;
+    color: white;
+}
+footer {
+    padding-top: 100px;
+}
+.copyright{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.faq{
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.8);
+    padding-top: 5px;
+}
+
+.faqs {
+    margin-left: 20px;
+    font-size: 2em;
+    
+}
+summary {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.answer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
